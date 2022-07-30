@@ -1,0 +1,16 @@
+Differences V1.3B / V1.3R:
+
+PSU:
+  - reverse polarity diode (D4)
+  - 2 power connector headers for 12 V (JP3, JP4)
+  
+  
+CPU: no differences found
+
+Front panel: no differences found
+
+Input stage:
+  - Extra filtering on microphone input (electret power); biasing of OpAmp input
+  - Extra "AUX Line in" connector
+
+Output stage: no differences found
