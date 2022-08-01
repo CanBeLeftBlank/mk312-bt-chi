@@ -1,0 +1,21 @@
+Board revisions:
+
+August 2022: 1.3.1-Chi
+
+- Fixed mounting holes for display print, re-aligned LCD module.
+
+August 2022: 1.3-Chi
+
+- Converted 1.3R Eagle designs into KiCad
+- Split displayboard from main PCB
+- Moved a few components a tiny bit on main PCB to make room for some
+  annotations
+
+No components were added or altered. Most standard components have been
+converted to KiCad versions, except a few mechanical parts like buttons,
+transformers, audio jacks and switches.
+
+Component numbers have of course changed due to the split.
+
+
+
