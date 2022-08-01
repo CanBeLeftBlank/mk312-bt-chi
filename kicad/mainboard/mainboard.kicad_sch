@@ -52,7 +52,7 @@
     (property "Value" "MountingHole" (id 1) (at 44.45 155.3722 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (id 2) (at 41.91 153.67 0)
+    (property "Footprint" "MountingHole:MountingHole_2.5mm" (id 2) (at 41.91 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 41.91 153.67 0)
@@ -69,7 +69,7 @@
     (property "Value" "MountingHole" (id 1) (at 44.45 160.4522 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (id 2) (at 41.91 158.75 0)
+    (property "Footprint" "MountingHole:MountingHole_2.5mm" (id 2) (at 41.91 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 41.91 158.75 0)
@@ -86,7 +86,7 @@
     (property "Value" "MountingHole" (id 1) (at 44.45 150.2922 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (id 2) (at 41.91 148.59 0)
+    (property "Footprint" "MountingHole:MountingHole_2.5mm" (id 2) (at 41.91 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 41.91 148.59 0)
@@ -488,13 +488,13 @@
       (reference "F1") (unit 1) (value "1A POLY") (footprint "Fuse:Fuse_Littelfuse-LVR100")
     )
     (path "/cd39498c-2e8a-48dc-a12c-d027bca333f6"
-      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.5mm")
     )
     (path "/52826be8-8e78-4f3e-ae6f-41daa025d4c3"
-      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.5mm")
     )
     (path "/95be1109-74d2-4230-ac0d-36359fb1c897"
-      (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
+      (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.5mm")
     )
     (path "/7dcd6303-5acd-4a81-8a26-a2e196b6bba9/1a96594a-9dc8-4b3b-8e26-65367a600fdd"
       (reference "J1") (unit 1) (value "+12V BATTERY") (footprint "mk312:DEANS")
