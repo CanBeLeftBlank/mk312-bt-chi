@@ -2369,7 +2369,7 @@
   (symbol (lib_id "Device:C") (at 85.09 163.83 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 37d05d0c-fd2c-47ad-99b1-bd0042f10a5e)
-    (property "Reference" "C1" (id 0) (at 76.2 163.83 0)
+    (property "Reference" "C42" (id 0) (at 76.2 163.83 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "0.1uF" (id 1) (at 74.93 166.37 0)
@@ -2423,7 +2423,7 @@
   (symbol (lib_id "Display_Character:RC1602A") (at 189.23 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 49ff3ae1-ae02-4def-bf64-4b538d23f00c)
-    (property "Reference" "U2" (id 0) (at 191.2494 28.0502 0)
+    (property "Reference" "LCD1" (id 0) (at 191.2494 28.0502 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RC1602A" (id 1) (at 191.2494 30.5871 0)
@@ -2573,7 +2573,7 @@
     (property "Reference" "LED4" (id 0) (at 60.96 166.37 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Value" "5mm, red" (id 1) (at 60.96 168.91 90)
+    (property "Value" "5 mm, red" (id 1) (at 60.96 168.91 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Footprint" "LED_THT:LED_D5.0mm" (id 2) (at 64.77 168.91 0)
@@ -2691,7 +2691,7 @@
     (property "Reference" "LED3" (id 0) (at 100.33 123.19 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Value" "5mm, red" (id 1) (at 93.98 134.62 90)
+    (property "Value" "5 mm, red" (id 1) (at 93.98 134.62 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Footprint" "LED_THT:LED_D5.0mm" (id 2) (at 99.06 123.19 0)
@@ -3212,7 +3212,7 @@
       (reference "#PWR014") (unit 1) (value "GND") (footprint "")
     )
     (path "/37d05d0c-fd2c-47ad-99b1-bd0042f10a5e"
-      (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm")
+      (reference "C42") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm")
     )
     (path "/52fbbb5e-e2d2-42c1-a80c-566ffb9e6372"
       (reference "H1") (unit 1) (value "MountingHole topright") (footprint "MountingHole:MountingHole_2.1mm")
@@ -3223,6 +3223,9 @@
     (path "/e5041354-b711-4490-a712-dc956e45a881"
       (reference "J10") (unit 1) (value "Conn. 02x12") (footprint "Connector_IDC:IDC-Header_2x12_P2.54mm_Vertical")
     )
+    (path "/49ff3ae1-ae02-4def-bf64-4b538d23f00c"
+      (reference "LCD1") (unit 1) (value "RC1602A") (footprint "Display:WC1602A")
+    )
     (path "/e5b8127c-a986-441d-9655-260089edadc4"
       (reference "LED1") (unit 1) (value "5 mm, red") (footprint "LED_THT:LED_D5.0mm")
     )
@@ -3230,10 +3233,10 @@
       (reference "LED2") (unit 1) (value "5 mm, red") (footprint "LED_THT:LED_D5.0mm")
     )
     (path "/7f11bb71-0b23-427a-a835-54b1dd9e05f6"
-      (reference "LED3") (unit 1) (value "5mm, red") (footprint "LED_THT:LED_D5.0mm")
+      (reference "LED3") (unit 1) (value "5 mm, red") (footprint "LED_THT:LED_D5.0mm")
     )
     (path "/5a196dae-b249-4e08-89df-c3de0945af88"
-      (reference "LED4") (unit 1) (value "5mm, red") (footprint "LED_THT:LED_D5.0mm")
+      (reference "LED4") (unit 1) (value "5 mm, red") (footprint "LED_THT:LED_D5.0mm")
     )
     (path "/566b906f-57c5-4d05-84c1-6fa6c729218f"
       (reference "P1") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical")
@@ -3285,9 +3288,6 @@
     )
     (path "/f2527428-43fd-41ad-8d73-c3c7b420a9b4"
       (reference "T8") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92_Inline")
-    )
-    (path "/49ff3ae1-ae02-4def-bf64-4b538d23f00c"
-      (reference "U2") (unit 1) (value "RC1602A") (footprint "Display:WC1602A")
     )
     (path "/73fcf29c-182d-4f9a-9237-8fd20f0b67be"
       (reference "U3") (unit 1) (value "4066N") (footprint "Package_DIP:DIP-14_W7.62mm")

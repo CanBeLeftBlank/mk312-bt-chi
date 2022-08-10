@@ -1480,6 +1480,7 @@
     )
   )
 
+
   (junction (at 259.08 95.25) (diameter 0) (color 0 0 0 0)
     (uuid 07999d72-5f09-43c1-a247-19f00848b5eb)
   )
@@ -2731,7 +2732,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x12_Odd_Even") (at 149.86 129.54 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 53e1952d-0110-4226-89b6-d104e3128f49)
-    (property "Reference" "J13" (id 0) (at 151.13 114.3 0))
+    (property "Reference" "J11" (id 0) (at 151.13 114.3 0))
     (property "Value" "Conn_02x12" (id 1) (at 149.86 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )

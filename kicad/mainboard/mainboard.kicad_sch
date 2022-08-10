@@ -341,7 +341,7 @@
       (reference "#PWR0158") (unit 1) (value "+12V") (footprint "")
     )
     (path "/7dcd6303-5acd-4a81-8a26-a2e196b6bba9/8ec294b6-ef54-4298-8494-9cc9ecdd4c7f"
-      (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+      (reference "C1") (unit 1) (value "10uF ceramic") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm")
     )
     (path "/7dcd6303-5acd-4a81-8a26-a2e196b6bba9/5defb072-4d73-4f78-ae80-a179afc52b63"
       (reference "C2") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm")
@@ -520,11 +520,11 @@
     (path "/9b8098ae-897e-4bbe-bf80-b541b6efd06f/b2534ecd-3baf-4b2f-bdfe-b0ab0ad1af56"
       (reference "J9") (unit 1) (value "RADIO INTERFACE") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
+    (path "/9b8098ae-897e-4bbe-bf80-b541b6efd06f/53e1952d-0110-4226-89b6-d104e3128f49"
+      (reference "J11") (unit 1) (value "Conn_02x12") (footprint "Connector_IDC:IDC-Header_2x12_P2.54mm_Vertical")
+    )
     (path "/9b8098ae-897e-4bbe-bf80-b541b6efd06f/4d68476d-525e-42e4-a0ce-4499bf80b0f0"
       (reference "J12") (unit 1) (value "Conn 02x03") (footprint "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical")
-    )
-    (path "/9b8098ae-897e-4bbe-bf80-b541b6efd06f/53e1952d-0110-4226-89b6-d104e3128f49"
-      (reference "J13") (unit 1) (value "Conn_02x12") (footprint "Connector_IDC:IDC-Header_2x12_P2.54mm_Vertical")
     )
     (path "/17e3c45c-a6bf-48fe-b4ac-484d934a5d95/68d5c596-d2f2-46c7-8796-6d68af837141"
       (reference "JP2") (unit 1) (value "Conn 1x4") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
@@ -623,7 +623,7 @@
       (reference "R27") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/17e3c45c-a6bf-48fe-b4ac-484d934a5d95/f0a5bd99-13f3-4c10-82a6-a844315945fe"
-      (reference "R28") (unit 1) (value "100K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R28") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/17e3c45c-a6bf-48fe-b4ac-484d934a5d95/540f5f95-f02e-4a6f-b6a6-24bb8069f5c7"
       (reference "R29") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
@@ -665,7 +665,7 @@
       (reference "R41") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
     )
     (path "/0a740070-5b68-44a6-bf53-a310b4bd676b/510af691-7f08-4d4a-86f7-eadf30de4045"
-      (reference "R42") (unit 1) (value "100K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R42") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/0a740070-5b68-44a6-bf53-a310b4bd676b/452852ee-e5dc-423e-97c0-9ef5c9333acc"
       (reference "R43") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
@@ -763,9 +763,6 @@
     (path "/17e3c45c-a6bf-48fe-b4ac-484d934a5d95/07da4ddd-edf0-43de-8a73-d21aa9a6840d"
       (reference "U4") (unit 3) (value "LM358N") (footprint "Package_DIP:DIP-8_W7.62mm")
     )
-    (path "/7dcd6303-5acd-4a81-8a26-a2e196b6bba9/dab5eb24-819b-4a11-82fc-d21e8c6582b3"
-      (reference "U5") (unit 1) (value "LM2941T") (footprint "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical")
-    )
     (path "/0a740070-5b68-44a6-bf53-a310b4bd676b/dcb563ad-97b5-4b47-8d6e-d6ff969dfcee"
       (reference "U8") (unit 1) (value "LTC1661") (footprint "Package_DIP:DIP-8_W7.62mm")
     )
@@ -789,6 +786,9 @@
     )
     (path "/7dcd6303-5acd-4a81-8a26-a2e196b6bba9/8cb2b3b1-4b3a-4c46-982a-7f6de26dc05c"
       (reference "U13") (unit 1) (value "7805TV") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
+    )
+    (path "/7dcd6303-5acd-4a81-8a26-a2e196b6bba9/dab5eb24-819b-4a11-82fc-d21e8c6582b3"
+      (reference "U14") (unit 1) (value "LM2941T") (footprint "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical")
     )
     (path "/9b8098ae-897e-4bbe-bf80-b541b6efd06f/8ee17842-5561-418a-bc4d-88459589930c"
       (reference "XTAL1") (unit 1) (value "8.0 MHz") (footprint "Crystal:Crystal_HC49-U_Vertical")
