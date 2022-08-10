@@ -1,3 +1,28 @@
+Welcome to the MK-312BTχ (Chi) project. This is a fork of the project bij [CrashOverride85](https://github.com/CrashOverride85/mk312-bt) which itself is cloned from an earlier project and ultimately a project by MetaFetish that has since been removed from GitHub.
+
+# What is it?
+
+MK-312BTχ is a DYI electronics kit to build an Estim box, including schematics, printed circuit board layouts and parts lists. If you don't know what an Estim box is or have no experience with electronics and soldering, this project is probably not for you...
+
+If you do know what an Estim box is: build and use at your own risk! Even though a lot of people have build these devices there's always room for error and (painful) experiences.
+
+## How is this different from the other cloned projects?
+
+The original designs were made with the Eagle CAD software. Since I don't have an expensive Eagle license I decided to convert the schematics to the open source KiCad format. This will hopefully allow more people to experiment with this or improve the design.
+
+Second, documentation was always a bit lacking or confusing. This project aims to improve on that.
+
+And who knows, maybe in the future we'll have original source code and firmware as well...
+
+## What's with the X in the version?
+
+It's not an X but the Greek letter χ (Chi) which is pronounced 'Kai', similar to 'KiCad'. 
+
+---
+
+Below is the original README at time of fork. 
+
+
 # Jan 2021 update
 The "original" branch of this repository matches the main metafetish/mk312-bt repo at the point it was deleted (which was on or 
 about 27th Dec 2020), with zero changes. This represents the mk312-bt that many (myself included) have successfully built.
