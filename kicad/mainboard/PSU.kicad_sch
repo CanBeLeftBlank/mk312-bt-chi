@@ -938,7 +938,6 @@
     )
   )
 
-
   (junction (at 39.37 55.88) (diameter 0) (color 0 0 0 0)
     (uuid 08a9379a-9a26-4403-a337-71013db5c29f)
   )
@@ -1946,7 +1945,7 @@
     (property "Reference" "JP4" (id 0) (at 238.76 143.51 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Value" "+12" (id 1) (at 238.76 146.05 0)
+    (property "Value" "+12V" (id 1) (at 238.76 146.05 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 232.41 142.24 0)

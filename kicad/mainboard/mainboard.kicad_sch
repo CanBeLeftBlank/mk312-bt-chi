@@ -533,7 +533,7 @@
       (reference "JP3") (unit 1) (value "+5V") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/7dcd6303-5acd-4a81-8a26-a2e196b6bba9/85679012-9906-429b-b351-ace09b93dbf2"
-      (reference "JP4") (unit 1) (value "+12") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "JP4") (unit 1) (value "+12V") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/0a740070-5b68-44a6-bf53-a310b4bd676b/2a367477-8171-40fe-b962-787fd4bfe416"
       (reference "JP6") (unit 1) (value "JP1E") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
@@ -731,10 +731,10 @@
       (reference "T6") (unit 1) (value "IRF9Z24") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/0a740070-5b68-44a6-bf53-a310b4bd676b/1c55f7f0-d72a-4e05-8676-b91d8add1ace"
-      (reference "TR1") (unit 1) (value "42TU200") (footprint "mk312:Transformer_Xicon_42TU")
+      (reference "TR1") (unit 1) (value "42TU200") (footprint "mk312:Transformer_Xicon_42TL_42TU_Combi")
     )
     (path "/0a740070-5b68-44a6-bf53-a310b4bd676b/dd8da1b6-a547-416b-a29b-eb565f66936d"
-      (reference "TR2") (unit 1) (value "42TU200") (footprint "mk312:Transformer_Xicon_42TU")
+      (reference "TR2") (unit 1) (value "42TU200") (footprint "mk312:Transformer_Xicon_42TL_42TU_Combi")
     )
     (path "/9b8098ae-897e-4bbe-bf80-b541b6efd06f/a51a2663-aa5d-4ee8-a74e-c8ae03fcd3de"
       (reference "U1") (unit 1) (value "ATMEGA16/32-P") (footprint "Package_DIP:DIP-40_W15.24mm")
