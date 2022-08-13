@@ -839,9 +839,6 @@
   (junction (at 101.6 39.37) (diameter 0) (color 0 0 0 0)
     (uuid 792165ee-92a4-4ed7-b2e5-200ff58422d3)
   )
-  (junction (at 101.6 62.23) (diameter 0) (color 0 0 0 0)
-    (uuid 7a10e67d-f049-43fe-909f-dac5d1529849)
-  )
   (junction (at 243.84 142.24) (diameter 0) (color 0 0 0 0)
     (uuid 7d4ccc1c-0c69-436c-abe9-d0a1a878d8df)
   )
@@ -1590,10 +1587,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid f89e0c35-6f83-477e-8bf7-12bbaed109a1)
   )
-  (wire (pts (xy 101.6 62.23) (xy 129.54 62.23))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid fab4b517-5a50-49b3-b21e-ecb65339c85a)
-  )
   (wire (pts (xy 184.15 67.31) (xy 179.07 67.31))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid fcde10e4-4c82-480b-a17c-cb74cf8b2991)
@@ -1609,6 +1602,12 @@
   (wire (pts (xy 73.66 139.7) (xy 73.66 142.24))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ffa8bbdd-6b4e-4748-8f15-f3c2d6a43526)
+  )
+
+  (text "Unused OpAmp! This makes sure this\nOpAmp does not introduce noise."
+    (at 138.43 24.13 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 617fdea7-be45-478b-a072-4132ca9a1d66)
   )
 
   (global_label "PD2" (shape bidirectional) (at 257.81 113.03 0) (fields_autoplaced)
