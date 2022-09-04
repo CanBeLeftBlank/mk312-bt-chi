@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "MK312-BT front panel")
+    (date "2022-09-05")
+    (rev "1.4.1-Chi")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -254,7 +260,7 @@
   (gr_line (start 157.48 91.5289) (end 158.75 90.2589) (layer "F.SilkS") (width 0.3048) (tstamp d698a3b1-6c74-4e85-91ac-1b23ef14ae48))
   (gr_line (start 157.48 54.6989) (end 162.56 54.6989) (layer "F.SilkS") (width 0.3048) (tstamp ea1ff5b8-c2ca-482d-8d0c-35150897c4c3))
   (gr_rect (start 134.5184 76.3778) (end 147.0152 88.9) (layer "Edge.Cuts") (width 0.05) (fill none) (tstamp 28cc37e5-b2b4-49e9-a17a-cb0386dde6d5))
-  (gr_rect (start 57.277 59.944) (end 129.0828 85.7504) (layer "Edge.Cuts") (width 0.05) (fill none) (tstamp 40900883-6321-4ea0-9f53-e43311fe7912))
+  (gr_rect (start 58.039 60.2488) (end 129.8448 86.0552) (layer "Edge.Cuts") (width 0.05) (fill none) (tstamp 40900883-6321-4ea0-9f53-e43311fe7912))
   (gr_line (start 50.8 109.5248) (end 50.8 50.8) (layer "Edge.Cuts") (width 0.05) (tstamp 50b19d72-fe94-4b2f-aa2e-65cedc0e9b24))
   (gr_line (start 50.8 50.8) (end 247.65 50.8) (layer "Edge.Cuts") (width 0.05) (tstamp 5f01329f-66a7-490e-ac62-39835b89445d))
   (gr_line (start 247.65 50.8) (end 247.65 109.5248) (layer "Edge.Cuts") (width 0.05) (tstamp 94c566e6-6358-4684-8df4-86b756dab4e3))
