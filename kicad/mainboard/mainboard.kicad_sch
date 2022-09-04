@@ -6,8 +6,8 @@
 
   (title_block
     (title "MK312 root sheet")
-    (date "2022-08-01")
-    (rev "1.3-Chi")
+    (date "2022-09-04")
+    (rev "1.4.1-chi")
   )
 
   (lib_symbols
@@ -515,7 +515,7 @@
       (reference "J7") (unit 1) (value "OUTPUT B") (footprint "mk312:STX3100")
     )
     (path "/7dcd6303-5acd-4a81-8a26-a2e196b6bba9/64150ec4-1d36-4193-993b-22d3e70cc7c7"
-      (reference "J8") (unit 1) (value "VDC INPUT") (footprint "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal")
+      (reference "J8") (unit 1) (value "VDC INPUT") (footprint "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal")
     )
     (path "/9b8098ae-897e-4bbe-bf80-b541b6efd06f/b2534ecd-3baf-4b2f-bdfe-b0ab0ad1af56"
       (reference "J9") (unit 1) (value "RADIO INTERFACE") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
@@ -629,7 +629,7 @@
       (reference "R29") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/0a740070-5b68-44a6-bf53-a310b4bd676b/321afb9c-4013-42d2-8891-9423c78ca679"
-      (reference "R30") (unit 1) (value "0.27R") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R30") (unit 1) (value "0.5R") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
     )
     (path "/0a740070-5b68-44a6-bf53-a310b4bd676b/09886dba-c0d3-494b-b1b4-0595056029a2"
       (reference "R31") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
@@ -731,10 +731,10 @@
       (reference "T6") (unit 1) (value "IRF9Z24") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/0a740070-5b68-44a6-bf53-a310b4bd676b/1c55f7f0-d72a-4e05-8676-b91d8add1ace"
-      (reference "TR1") (unit 1) (value "42TU200") (footprint "mk312:Transformer_Xicon_42TL_42TU_Combi")
+      (reference "TR1") (unit 1) (value "42TL004") (footprint "mk312:Transformer_Xicon_42TL_42TU_Combi")
     )
     (path "/0a740070-5b68-44a6-bf53-a310b4bd676b/dd8da1b6-a547-416b-a29b-eb565f66936d"
-      (reference "TR2") (unit 1) (value "42TU200") (footprint "mk312:Transformer_Xicon_42TL_42TU_Combi")
+      (reference "TR2") (unit 1) (value "42TL004") (footprint "mk312:Transformer_Xicon_42TL_42TU_Combi")
     )
     (path "/9b8098ae-897e-4bbe-bf80-b541b6efd06f/a51a2663-aa5d-4ee8-a74e-c8ae03fcd3de"
       (reference "U1") (unit 1) (value "ATMEGA16/32-P") (footprint "Package_DIP:DIP-40_W15.24mm")
