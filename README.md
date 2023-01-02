@@ -69,3 +69,11 @@ To set your programmer fuses:
 This assumes an 8 MHz crystal is used.
 
 On the mainboard PCB is a 6-pin header for programming, compatible with the Atmel-ICE programmer (and probably a few others). An alternative is an external programmer. There is no way to upload the firmware using a bootloader AFAIK.
+
+# Using it
+
+## Charging
+
+The recommende charging voltage is 15 Volt DC; the box monitors the input voltage and if it is too high, the firmware may display an error 21. The battery will still be charged to its nominal voltage but the LM2914 might get hot due to a high charging current.
+
+Note: as with all estim boxes it is not recommend to use the machine while it is being charged and thus (indirectly) connected to mains voltage.
